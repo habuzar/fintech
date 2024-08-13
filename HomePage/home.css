@@ -24,8 +24,8 @@ body{
 }
 
 .newsCard img{
-    width: 60px;
-    height: auto;
+    width: 90px;
+    height: 90px;
     margin-right: 10px;
 }
 
@@ -36,15 +36,10 @@ body{
 }
 
 .newsCard h2 {
-    font-size: 1rem;
+    font-size: 15px;
     margin: 0; 
 }
   
-.newsCard p {
-    margin: 5px 0;
-    font-size: 13px;
-}
-
 @media screen and (max-width: 200px) {
     .newsCard {
       flex-direction: column;
